@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gerador de Senhas</title>
+  <link rel="stylesheet" href="/CyberSafeSite/assets/style/senhas.css">
+</head>
+<body>
+  <main>
+    <div class="main-login">
+      <div class="left-login">
+        <h1>Use nosso gerador <br> E mantenha suas senhas seguras</h1>
+        <img src="/CyberSafeSite/assets/img/gerarSenha.svg" alt="" class="image-login">
+      </div>
+
+      <div class="rigth-login">
+        <div class="card-login">
+          <h1>GERADOR</h1>
+          <div class="textfield">
+            <input id="inputPasswordId" type="text" />
+          </div>
+
+          <div class="inputLengthId">
+            <input id="inputLengthId" type="range" min="6" max="24" />
+            <label for="inputLengthId"></label>
+          </div>
+          <div class="select">
+            <div>
+              <input id="chkLowerId" type="checkbox" />
+              <label for="chkLowerId">Letras minusculas</label>
+            </div>
+
+            <div>
+              <input id="chkUpperId" type="checkbox" />
+              <label for="chkUpperId">Letras maisculas</label>
+            </div>
+            <div>
+
+              <input id="chkNumberId" type="checkbox" />
+              <label for="chkNumberId">Numeros</label>
+            </div>
+            <div>
+              <input id="chkSymbolsId" type="checkbox" />
+              <label for="chkSymbolsId">Si­mbolos</label>
+            </div>
+          </div>
+
+          <button class="btn-gerar" id="btnGerar">Gerar</button>
+
+        </div>
+
+
+      </div>
+
+    </div>
+  </main>
+  <script src="/CyberSafeSite/assets/js/senhas.js"></script>
+</body>
+</html>
